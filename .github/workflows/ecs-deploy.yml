@@ -8,7 +8,7 @@ on:
 env:
   ECR_REPOSITORY: onlinebookstore
   ECS_CLUSTER: bookstore-cluster
-  ECS_SERVICE: bookstore-service
+  ECS_SERVICE: bookstore-task-service
   TASK_DEFINITION: ecs-task-definition.json
   CONTAINER_NAME: bookstore-container
 
